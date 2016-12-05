@@ -1,0 +1,83 @@
+body{
+  background-color: @color-gray;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  height: 64px;
+  background: @color-aqua;
+  border-bottom: 5px solid @color-gray-oscuro;
+  .container-custom {
+    width: 100%;
+    display: block;
+    padding: 0px 40px;
+    .dm-logo {
+      float: left;
+      margin-top: 9px;
+    }
+    .dm-use-box {
+      color: @color-gray-oscuro-2;
+      text-align: center;
+      float: right;
+      .dropdown {
+        padding: 13.5px 10px;
+        background-color: @color-aqua;
+        .btn-default{
+          color: white;
+          background-color: @color-aqua;
+          border: none;
+          :hover{
+            background-color: @color-aqua;
+            color: white;
+          }
+        }
+      }
+      .open{
+        .dropdown-toggle{
+          .btn-default{
+            background-color: @color-aqua;
+            color: white;
+          }
+        }
+      }
+      .dropdown-menu{
+        background-color: @color-aqua;
+        border: none;
+        margin: 0;
+        border-radius: 0;
+        > li > a{
+          color: white;
+          &:hover{
+            color: @color-aqua;
+          }
+        }
+      }
+    }
+  }
+}
+section{
+  .contenido{
+    padding: 10px 0;
+    .panel-box{
+      padding:5px;
+      margin-bottom: 10px;
+      background: @color-some-gray;
+      .box-icon{
+        display: inline-block;
+        width: 100px;
+      }
+      .box-name{
+        display: inline-block;
+        h4{
+          margin-bottom: 0;
+        }
+        small{
+          color: @color-gray-oscuro-3;
+        }
+      }
+    }
+    .btn-dm-big{
+      font-size: 24px;
+      padding: 20px 30px;
+    }
+  }
+}

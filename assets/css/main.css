@@ -1,0 +1,88 @@
+/*
+Fonts
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/*
+Variables
+*/
+/*
+Template
+*/
+@import "animate.min.css";
+body {
+  background-color: #ececec;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  height: 64px;
+  background: #00acee;
+  border-bottom: 5px solid #d4d2d2;
+}
+header .container-custom {
+  width: 100%;
+  display: block;
+  padding: 0px 40px;
+}
+header .container-custom .dm-logo {
+  float: left;
+  margin-top: 9px;
+}
+header .container-custom .dm-use-box {
+  color: #dddddd;
+  text-align: center;
+  float: right;
+}
+header .container-custom .dm-use-box .dropdown {
+  padding: 13.5px 10px;
+  background-color: #00acee;
+}
+header .container-custom .dm-use-box .dropdown .btn-default {
+  color: white;
+  background-color: #00acee;
+  border: none;
+}
+header .container-custom .dm-use-box .dropdown .btn-default :hover {
+  background-color: #00acee;
+  color: white;
+}
+header .container-custom .dm-use-box .open .dropdown-toggle .btn-default {
+  background-color: #00acee;
+  color: white;
+}
+header .container-custom .dm-use-box .dropdown-menu {
+  background-color: #00acee;
+  border: none;
+  margin: 0;
+  border-radius: 0;
+}
+header .container-custom .dm-use-box .dropdown-menu > li > a {
+  color: white;
+}
+header .container-custom .dm-use-box .dropdown-menu > li > a:hover {
+  color: #00acee;
+}
+section .contenido {
+  padding: 10px 0;
+}
+section .contenido .panel-box {
+  padding: 5px;
+  margin-bottom: 10px;
+  background: #f2f2f2;
+}
+section .contenido .panel-box .box-icon {
+  display: inline-block;
+  width: 100px;
+}
+section .contenido .panel-box .box-name {
+  display: inline-block;
+}
+section .contenido .panel-box .box-name h4 {
+  margin-bottom: 0;
+}
+section .contenido .panel-box .box-name small {
+  color: #6e6c71;
+}
+section .contenido .btn-dm-big {
+  font-size: 24px;
+  padding: 20px 30px;
+}
